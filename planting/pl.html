@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eyad Ahmed Hosny Ahmed Mahfouz">
+    <meta name="descriptioin" content="المشاكل والتحديات التي تواجه مصر | الزراعة">
+    <link rel="stylesheet" href="../tools/ot.css">
+    <link rel="icon" href="../imgs/download.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>مصر المستقبلل | الزراعة</title>
+</head>
+<body>
+    <div id="alert-page">
+        <p class="req">Your wifi connection is bad, please try again later <br>The page may not work well</p>
+        
+        <p class="info">Click to start the page anyway</p>
+    </div>
+
+<div id="wrapper"></div>
+    <div id="mainPage">
+        <header>
+            <div class="theUpper">
+                <div class="logo">
+                    <img src="../imgs/download.png" alt="the logo">
+                </div>
+                <div class="elsisi-image">
+                    <img src="../imgs/photo_9054.gif" alt="">
+                    <img src="../imgs/20210406030235235.jpg" alt="">
+                    <img src="../imgs/i.webp" alt="">
+                </div>
+                <div class="toggle">
+                    <div>
+                        <img src="../imgs/moon.png" class="moon-icon" id="moon-icon">
+                    </div>
+                </div>
+            </div>
+            <nav class="navigation">
+                <div class="navbar-links" id="navbar-links">
+                    <button class="bar" style="color: #01e244;">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="svg" height="28" width="26" viewBox="0 0 448 512"><path id="path" fill="#fff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </button>
+                    <a href="../index.html" class="pages page1">الرئيسية</a>
+                    <a href="../Climate/sto.html" class="pages">المناخ</a>
+                    <a href="../education/ed.html" class="pages">التعليم</a>
+                    <div id="activeSpan">
+                        <a href="../planting/pl.html" class="pl" id="active">الزراعة</a>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+        <div class="theMid">
+        <div class="container">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="building over lands/index.html">
+                <img src="../imgs/building over lands.jpg">
+                <p><span class="pspan">الزحف السكاني</span></p>
+            </a>
+        </div>
+          <div class="swiper-slide">
+            <a href="../Climate/less of water/index.html">
+                <img src="../imgs/The_Nile_River_at_Cairo.jpg">
+                <p><span class="pspan">الموارد المائية</span></p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="watering plants a lot/index.html">
+                <img src="../imgs/water-plants.webp">
+                <p><span class="pspan">الإفراط في الري</span></p>
+            </a>
+        </div>
+          <div class="swiper-slide">
+            <a href="increasing sea salt in lands/index.html">
+                <img src="../imgs/زيادة الملحة.jpg">
+                <p><span class="pspan">زيادة الملوحة في التربة</span></p>
+            </a>
+        </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+        </div>
+
+        <div class="news-box">
+            <div class="links">
+                <a href="future of egy/index.html" class="truncate-text">
+                    <img src="../imgs/Mostakbal Misr.jpeg" alt="">
+                    <p>مشروع مستقبل مصر للإنتاج الزراعي</p>
+                </a>
+            </div>
+            <div class="links">
+                <a href="../Climate/sanding/index.html" class="truncate-text">
+                    <img src="../imgs/sanding.png" alt="">
+                    <p>التصحر في مصر</p>
+                </a>
+            </div>
+            <div class="links">
+                <a href="lining canals/index.html" class="truncate-text">
+                    <img src="../imgs/lining the canals.jpg" alt="">
+                    <p>المشروع القومي لتبطين الترع</p>
+                </a>
+            </div>
+            <div class="links">
+                <a href="seeds production/index.html" class="truncate-text">
+                    <img src="../imgs/seed-planting-1024x768.webp" alt="">
+                    <p>مشروع إنتاج البذور والتقاوى</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer id="footer">
+        <div class="rights">
+            <p>© جميع الحقوق محفوظة. تصميم وتطوير <span>إياد أحمد حسني</span></p>
+        </div>
+    </footer>
+    <script src="../tools/ot.js"></script>
+    <script src="https://unpkg.com/swiper@11.0.4/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var swiper = new Swiper('.swiper', {
+          autoplay: {
+              delay: 3000,
+              disableOnInteraction: true,
+          },
+          loop: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }
+          });
+        });
+        </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'DroidKufi';
+    src: url(DroidKufi.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url(Rubik-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'Changa';
+    src: url(Changa-VariableFont_wght.ttf) format('truetype');
+}
